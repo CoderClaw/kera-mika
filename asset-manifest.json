@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/CoderClaw/kera-mika/static/css/main.527225fc.css",
-    "main.js": "/CoderClaw/kera-mika/static/js/main.dcb2c25a.js",
-    "static/media/keramika-durazno.png": "/CoderClaw/kera-mika/static/media/keramika-durazno.9ec29c371af20dfe8b2b.png",
-    "static/media/keramika-azul.png": "/CoderClaw/kera-mika/static/media/keramika-azul.de10a010cc5d5feb12e6.png",
-    "index.html": "/CoderClaw/kera-mika/index.html",
-    "main.527225fc.css.map": "/CoderClaw/kera-mika/static/css/main.527225fc.css.map",
-    "main.dcb2c25a.js.map": "/CoderClaw/kera-mika/static/js/main.dcb2c25a.js.map"
+    "main.css": "/kera-mika/static/css/main.527225fc.css",
+    "main.js": "/kera-mika/static/js/main.637ee396.js",
+    "static/media/keramika-durazno.png": "/kera-mika/static/media/keramika-durazno.9ec29c371af20dfe8b2b.png",
+    "static/media/keramika-azul.png": "/kera-mika/static/media/keramika-azul.de10a010cc5d5feb12e6.png",
+    "index.html": "/kera-mika/index.html",
+    "main.527225fc.css.map": "/kera-mika/static/css/main.527225fc.css.map",
+    "main.637ee396.js.map": "/kera-mika/static/js/main.637ee396.js.map"
   },
   "entrypoints": [
     "static/css/main.527225fc.css",
-    "static/js/main.dcb2c25a.js"
+    "static/js/main.637ee396.js"
   ]
 }
