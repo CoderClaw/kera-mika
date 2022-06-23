@@ -26,7 +26,8 @@ function Landing() {
         <S.Banner className='banner'>
             <S.BannerInfo className='bannerInfo'>
                 <S.BannerInfoText>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia explicabo numquam impedit blanditiis possimus, quae dolorem maxime error.
+                    <h1>Ceramicas Artesanales</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil omnis at voluptatem quisquam quod nobis error beatae voluptates illum pariatur delectus debitis, tempora hic. Inventore laudantium cumque adipisci molestias iste.</p>
                 </S.BannerInfoText>
                 <S.BannerInfoButton>contact us</S.BannerInfoButton>
             </S.BannerInfo>

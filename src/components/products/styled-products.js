@@ -13,7 +13,7 @@ export const Title = styled.h3`
     color: ${azul};
     font-family: "Merryweather", serif;
     font-style: italic;
-    font-size: calc(11px + 1vw);
+    font-size: calc(16px + 1vw);
     width: 60%;
     padding-left: 5%;
 
@@ -27,6 +27,7 @@ export const Products = styled.div`
     justify-content: space-around;
     align-items: center;
     width:60%;
+
     @media (max-width:1000px){
         width: 80%;
     }
@@ -38,6 +39,22 @@ export const Product = styled.div`
     height: 40vh;
     width: 100%;
     margin-top: 20px;
+
+    &:hover{
+        cursor: pointer;
+    }
+
+    @media (max-width:600px){
+        position: relative;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+        height: 30vh;
+        width: auto;
+        aspect-ratio: 1/1;
+        &.flip{
+            transform: rotateY(180deg);
+        }
+    }
 `
 export const ProductImg = styled.div`
     height: 100%;
@@ -47,9 +64,18 @@ export const ProductImg = styled.div`
     justify-content: center;
     box-shadow: 5px 5px 10px #995544;
     z-index: 99;
+    
 
     & img{
         height: 100%;        
+    }
+
+    @media (max-width:600px){
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden; /* Safari */
+        backface-visibility: hidden;
     }
 `
 export const ProductInfo = styled.div`
@@ -62,5 +88,13 @@ export const ProductInfo = styled.div`
     
     & p{
         width: 90%;
+    }
+    
+    @media (max-width:600px){
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        transform: rotateY(180deg);
+        box-shadow: 5px 5px 10px #995544;
     }
 `
